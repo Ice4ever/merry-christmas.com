@@ -17,10 +17,12 @@ body {
 
 .header {
   background: url(IMG_20150724_110455.jpg) no-repeat center center; 
-  background-size:cover;
-    background-attachment: fixed;
   height: 1082px;
-  text-align: center; 
+  text-align: center;
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header .container {
@@ -150,10 +152,12 @@ body {
 
 .jumbotron {
   background: url(IMG_4518.JPG) center center;
-  background-size:cover;
-    background-attachment: fixed;
   height: 600px; 
-    filter: blur(px);
+    filter: blur(px);    
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
